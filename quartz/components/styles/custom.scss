@@ -1,0 +1,195 @@
+/* =====================================================
+   THE ROYAL ARCHIVES OF VEYR
+   Custom Quartz Theme
+   ===================================================== */
+
+/* ---------- SITE TITLE ---------- */
+
+.page-title {
+    font-variant: small-caps;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  /* ---------- HOMEPAGE HERO ---------- */
+  
+  .homepage img:first-of-type {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Hide article chrome on homepage */
+  
+  .homepage .page-title {
+    display: none;
+  }
+  
+  .homepage .content-meta {
+    display: none;
+  }
+  
+  .homepage .toc {
+    display: none;
+  }
+  
+  .homepage .breadcrumb-container {
+    display: none;
+  }
+  
+  /* ---------- CONTENT WIDTH ---------- */
+  
+  article {
+    max-width: 1000px;
+  }
+  
+  /* ---------- HEADINGS ---------- */
+  
+  h1 {
+    font-variant: small-caps;
+    letter-spacing: 0.03em;
+    border-bottom: 2px solid var(--secondary);
+    padding-bottom: 0.25rem;
+  }
+  
+  h2 {
+    font-variant: small-caps;
+    color: var(--secondary);
+    border-bottom: 1px solid var(--lightgray);
+    padding-bottom: 0.15rem;
+    margin-top: 2rem;
+  }
+  
+  h3 {
+    color: var(--secondary);
+  }
+  
+  /* ---------- BLOCKQUOTES ---------- */
+  
+  blockquote {
+    border-left: 4px solid var(--secondary);
+    background: rgba(176, 138, 68, 0.08);
+    padding: 0.75rem 1rem;
+    font-style: italic;
+  }
+  
+  /* ---------- LINKS ---------- */
+  
+  a {
+    transition: all 0.15s ease;
+  }
+  
+  a:hover {
+    color: var(--secondary);
+    text-decoration: none;
+  }
+  
+  /* ---------- EXPLORER ---------- */
+  
+  .folder-title {
+    font-variant: small-caps;
+    font-weight: 600;
+  }
+  
+  .folder-container {
+    margin-bottom: 0.25rem;
+  }
+  
+  /* ---------- TABLES ---------- */
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    background: var(--secondary);
+    color: white;
+  }
+  
+  th,
+  td {
+    border: 1px solid var(--lightgray);
+    padding: 0.5rem;
+  }
+  
+  /* ---------- CALLOUTS ---------- */
+  
+  .callout {
+    border-radius: 8px;
+    border-left: 4px solid var(--secondary);
+  }
+  
+  /* ---------- IMAGE STYLING ---------- */
+  
+  img {
+    border-radius: 8px;
+  }
+  
+  article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* ---------- NPC STATBLOCK STYLE ---------- */
+  
+  .statblock {
+    border: 2px solid var(--secondary);
+    padding: 1rem;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.03);
+  }
+  
+  /* ---------- SIX TRUTHS ---------- */
+  
+  .six-truths {
+    text-align: center;
+    font-style: italic;
+    margin: 2rem 0;
+  }
+  
+  .six-truths p {
+    margin: 0.5rem 0;
+  }
+  
+  /* ---------- SCROLLBAR ---------- */
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--secondary);
+    border-radius: 6px;
+  }
+  
+  /* ---------- HOMEPAGE SECTIONS ---------- */
+  
+  .homepage h2 {
+    text-align: center;
+    margin-top: 3rem;
+    border-bottom: none;
+  }
+  
+  .homepage ul {
+    margin-bottom: 2rem;
+  }
+  
+  /* ---------- FANTASY ARTICLE LOOK ---------- */
+  
+  article {
+    background: rgba(255,255,255,0.02);
+    padding: 1rem;
+    border-radius: 12px;
+  }
+  
+  /* ---------- HIDE QUARTZ FOOTER ---------- */
+  
+  footer {
+    opacity: 0.5;
+    font-size: 0.85rem;
+  }

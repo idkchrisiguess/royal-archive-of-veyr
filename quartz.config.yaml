@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: mysote.github.io
+  baseUrl: chrishuckelberry.github.io/royal-archives-of-veyr
   ignorePatterns:
     - private
     - templates

@@ -38,6 +38,13 @@ jobs:
       - name: Install Quartz plugins
         run: npx quartz plugin install
 
+      - name: Verify content
+        run: |
+          if [ ! -d content ] || [ "$(find content -name '*.md' | wc -l | tr -d ' ')" -eq 0 ]; then
+            echo "No markdown files found in content/. Commit your vault content before deploying."
+            exit 1
+          fi
+
       - name: Build Quartz
         run: npx quartz build
 

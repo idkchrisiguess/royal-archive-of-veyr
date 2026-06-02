@@ -1,1 +1,1 @@
-![[Hall of Saint Vaelor.excalidraw.png]]
+![[Hall of Saint Vaelor.png]]

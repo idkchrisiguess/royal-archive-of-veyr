@@ -16,6 +16,9 @@ configuration:
     - "Campaign Bible/**"
     - "**/*Cheat Sheet*"
     - "**/_*"
+    - "**/Assets/README.md"
+    - "**/Assets/index.md"
+    - "**/Assets/banners/README.md"
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
